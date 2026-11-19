@@ -1,0 +1,21 @@
+# Сборка
+/target
+/out
+/android/.gradle
+/android/build
+/android/app/build
+/android/app/src/main/jniLibs
+# Копии, которые build_apk.sh делает из fonts/ и tests/corpus/
+/android/app/src/main/assets/fonts
+/android/app/src/main/assets/corpus
+# Локальные пути и ключи
+/android/local.properties
+*.jks
+*.keystore
+*.apk
+# Книги из личной коллекции: чужие авторские права
+/tests/corpus/personal/
+/tests/corpus/real/
+/tests/fonts/
+# Служебное: личные заметки для ИИ-агентов, в публикацию не идут
+/CLAUDE.md
